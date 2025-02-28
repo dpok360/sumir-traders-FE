@@ -1,13 +1,15 @@
-import HeaderBox from '@/components/HeaderBox';
 import Header from '@/components/Header';
 
 import React from 'react';
+import ItemsCard from '@/components/ItemsCard';
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-white ">
       <Header />
-      <HeaderBox title="sumir trader" subtext="market place" user="sumir" />
+      <div className="!mx-50 !my-8">
+        <ItemsCard />
+      </div>
     </div>
   );
 };

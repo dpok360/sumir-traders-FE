@@ -1,10 +1,16 @@
 import React from 'react';
 import Search from './Search';
-import HeaderBox from './HeaderBox';
+import Logo from './Logo';
+
+import UserDropdownMenu from './UserDropdownMenu';
+import Cart from './Cart';
 const Header = () => {
   return (
-    <div className="flex border w-full bg-slate-200">
+    <div className="flex justify-between items-center border  bg-gary-100 shadow-xl">
+      <Logo />
       <Search />
+      <Cart />
+      <UserDropdownMenu />
     </div>
   );
 };
