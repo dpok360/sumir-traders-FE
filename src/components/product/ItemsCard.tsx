@@ -1,7 +1,12 @@
 import { items } from '@/constants/constants';
 import Image from 'next/image';
 import React from 'react';
-import { Button } from './ui/button';
+import { Button } from '../ui/button';
+
+//TODO --> make cards links
+//TODO --> on hover card should pop
+//TODO -->  cart button adds items to cart
+//TODO --> decrese available items when items is added to cart
 
 const ItemsCard = () => {
   return (
@@ -9,7 +14,7 @@ const ItemsCard = () => {
       {items.map((item) => (
         <div
           key={item.id}
-          className="w-60 h-80 !p-4  shadow-lg flex flex-col items-center"
+          className="w-60 h-80 !p-4  flex flex-col items-center"
         >
           <Image
             src={item.imageUrl}

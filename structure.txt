@@ -1,0 +1,100 @@
+sumir-traders/
+├── app/
+│   ├── (auth)/
+│   │   ├── login/
+│   │   │   └── page.tsx
+│   │   ├── register/
+│   │   │   └── page.tsx
+│   │   └── layout.tsx
+│   ├── (shop)/
+│   │   ├── products/
+│   │   │   ├── [category]/
+│   │   │   │   └── page.tsx
+│   │   │   ├── [category]/[productId]/
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── cart/
+│   │   │   └── page.tsx
+│   │   ├── checkout/
+│   │   │   └── page.tsx
+│   │   ├── orders/
+│   │   │   ├── [orderId]/
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   └── layout.tsx
+│   ├── (account)/
+│   │   ├── profile/
+│   │   │   └── page.tsx
+│   │   ├── addresses/
+│   │   │   └── page.tsx
+│   │   ├── wishlist/
+│   │   │   └── page.tsx
+│   │   └── layout.tsx
+│   ├── api/
+│   │   ├── auth/
+│   │   │   └── [...nextauth]/
+│   │   │       └── route.ts
+│   │   ├── products/
+│   │   │   └── route.ts
+│   │   ├── cart/
+│   │   │   └── route.ts
+│   │   ├── checkout/
+│   │   │   └── route.ts
+│   │   └── orders/
+│   │       └── route.ts
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ui/
+│   │   ├── Button.tsx
+│   │   ├── Card.tsx
+│   │   ├── Input.tsx
+│   │   └── ...
+│   ├── layout/
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Sidebar.tsx
+│   │   └── ...
+│   ├── product/
+│   │   ├── ProductCard.tsx
+│   │   ├── ProductGrid.tsx
+│   │   ├── ProductDetails.tsx
+│   │   └── ...
+│   ├── cart/
+│   │   ├── CartItem.tsx
+│   │   ├── CartSummary.tsx
+│   │   └── ...
+│   └── checkout/
+│       ├── CheckoutForm.tsx
+│       ├── PaymentMethod.tsx
+│       └── ...
+├── lib/
+│   ├── db.ts
+│   ├── auth.ts
+│   ├── utils.ts
+│   └── ...
+├── hooks/
+│   ├── useCart.ts
+│   ├── useProducts.ts
+│   └── ...
+├── types/
+│   ├── product.ts
+│   ├── user.ts
+│   ├── order.ts
+│   └── ...
+├── public/
+│   ├── images/
+│   │   └── ...
+│   └── ...
+├── context/
+│   ├── CartContext.tsx
+│   ├── AuthContext.tsx
+│   └── ...
+├── middleware.ts
+├── .env
+├── .env.local
+├── package.json
+├── tsconfig.json
+└── next.config.js

@@ -8,9 +8,8 @@ const itemCount = 1;
 const CartIcon = () => {
   return (
     <div className="relative cursor-pointer !mt-6">
-      {/* Cart Icon from public folder */}
       <Image
-        src="/cart.svg" // Since it's in public, just use "/cart.svg"
+        src="/cart.svg"
         alt="Cart"
         width={32}
         height={32}

@@ -1,7 +1,7 @@
-import Header from '@/components/Header';
+import Header from '@/components/layout/Header';
+import ItemsCard from '@/components/product/ItemsCard';
 
 import React from 'react';
-import ItemsCard from '@/components/ItemsCard';
 
 const Home = () => {
   return (

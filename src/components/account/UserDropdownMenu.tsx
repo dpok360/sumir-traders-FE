@@ -6,14 +6,14 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { Button } from './ui/button';
+import { Button } from '../ui/button';
 const UserDropdownMenu = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
           variant="outline"
-          className="!mt-6 !mr-8 !p-8 border-none text-lg font-extrabold text-gary-600"
+          className="!mt-6 !mr-8 !p-8 border-none !bg-none text-lg font-extrabold text-gary-60 hover:cursor-pointer"
         >
           My Account
         </Button>
