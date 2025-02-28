@@ -13,7 +13,7 @@ const UserDropdownMenu = () => {
       <DropdownMenuTrigger asChild>
         <Button
           variant="outline"
-          className="!mt-10 !mr-8 !p-8 border-none text-lg font-extrabold  text-gray-500 hover:bg-gray-100 "
+          className="!mt-6 !mr-8 !p-8 border-none text-lg font-extrabold text-gary-600"
         >
           My Account
         </Button>

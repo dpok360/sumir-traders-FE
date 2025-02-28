@@ -1,7 +1,12 @@
 import React from 'react';
+import CartIcon from './CartIcon';
 
 const Cart = () => {
-  return <div>Cart</div>;
+  return (
+    <div>
+      <CartIcon />
+    </div>
+  );
 };
 
 export default Cart;

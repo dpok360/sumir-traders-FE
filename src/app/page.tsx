@@ -5,9 +5,9 @@ import ItemsCard from '@/components/ItemsCard';
 
 const Home = () => {
   return (
-    <div className="bg-white ">
+    <div className="bg-white">
       <Header />
-      <div className="!mx-50 !my-8">
+      <div className="!mx-50 !my-8 !pt-34">
         <ItemsCard />
       </div>
     </div>
