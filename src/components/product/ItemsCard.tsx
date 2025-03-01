@@ -2,6 +2,7 @@ import { items } from '@/constants/constants';
 import Image from 'next/image';
 import React from 'react';
 import { Button } from '../ui/button';
+import { ShoppingBag } from 'lucide-react';
 
 //TODO --> make cards links
 //TODO --> on hover card should pop
@@ -23,18 +24,22 @@ const ItemsCard = () => {
             height={120}
             className="w-24 h-24 object-cover"
           />
+
           <h3 className="text-xl font-bold !mt-4 text-gray-500 line-clamp-2">
             {item.name}
           </h3>
           <p className="text-lg font-semibold text-red-600">NPR {item.price}</p>
           <p className="text-sm text-gray-500">Available: {item.quantity}</p>
-          <Button
-            variant="outline"
-            size="lg"
-            className="!px-6 !m-4 bg-gray-100 font-bold hover:cursor-pointer"
-          >
-            Add to cart
-          </Button>
+          <div className="flex items-center relative  ">
+            <ShoppingBag className="absolute left-6  z-10 h-5 w-5 top-1/2 transform -translate-y-1/2    text-gray-100 transition-colors" />
+            <Button
+              variant="outline"
+              size="lg"
+              className="!px-8 !m-4 bg-gray-100 rounded-sm font-bold hover:cursor-pointer hover:bg-black hover:text-white"
+            >
+              Add to cart
+            </Button>
+          </div>
         </div>
       ))}
     </div>
