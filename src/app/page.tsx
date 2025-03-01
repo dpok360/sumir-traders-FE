@@ -1,5 +1,5 @@
 import Header from '@/components/layout/Header';
-import ItemsCard from '@/components/product/ItemsCard';
+import ItemsCard from '@/components/products/ItemsCard';
 
 import React from 'react';
 
