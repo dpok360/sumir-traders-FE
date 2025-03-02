@@ -14,7 +14,7 @@ const ItemsCard = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 bg-gray-50  ">
       {items.map((item) => (
-        <Link key={item.id} href={`/products/${item.id}`}>
+        <Link key={item.id} href={`/${item.category}/${item.name}/${item.id}`}>
           <div
             key={item.id}
             className="w-60 h-90 !p-4  flex flex-col items-center hover:bg-gray-50 hover:shadow-lg hover:cursor-pointer"

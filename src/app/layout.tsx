@@ -3,6 +3,7 @@ export const dynamic = 'force-dynamic';
 import type { Metadata } from 'next';
 import './globals.css';
 import { Inter, IBM_Plex_Serif } from 'next/font/google';
+import Header from '@/components/layout/Header';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
@@ -30,7 +31,8 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${ibmPlexSerif.variable} antialiased`}
       >
-        {children}
+        <Header />
+        <main>{children}</main>
       </body>
     </html>
   );

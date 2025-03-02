@@ -15,7 +15,7 @@ export const items = [
   },
   {
     id: 2,
-    name: 'Organic Bananas',
+    name: 'Organic-Bananas',
     category: 'Fruits',
     price: 1.49,
     quantity: 15,
