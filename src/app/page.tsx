@@ -2,7 +2,7 @@ import ItemsCard from '@/components/products/ItemsCard';
 
 import React from 'react';
 
-const Home = () => {
+const HomePage = () => {
   return (
     <div className="bg-white">
       <div className="!mx-50 !my-8 !pt-34">
@@ -12,4 +12,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

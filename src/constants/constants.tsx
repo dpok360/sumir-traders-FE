@@ -6,7 +6,7 @@ export const navLinks = [
 export const items = [
   {
     id: 1,
-    name: 'Fresh Apples',
+    name: 'Fresh-Apples',
     category: 'Fruits',
     price: 2.99,
     quantity: 10,
@@ -24,7 +24,7 @@ export const items = [
   },
   {
     id: 3,
-    name: 'Whole Wheat Bread',
+    name: 'Whole-Wheat-Bread',
     category: 'Bakery',
     price: 3.99,
     quantity: 8,
@@ -33,7 +33,7 @@ export const items = [
   },
   {
     id: 4,
-    name: 'Cheddar Cheese',
+    name: 'Cheddar-Cheese',
     category: 'Dairy',
     price: 4.99,
     quantity: 12,
@@ -42,7 +42,7 @@ export const items = [
   },
   {
     id: 5,
-    name: 'Almond Milk',
+    name: 'Almond-Milk',
     category: 'Dairy',
     price: 3.49,
     quantity: 20,
@@ -51,7 +51,7 @@ export const items = [
   },
   {
     id: 6,
-    name: 'Organic Carrots',
+    name: 'Organic-Carrots',
     category: 'Vegetables',
     price: 2.29,
     quantity: 30,
@@ -60,7 +60,7 @@ export const items = [
   },
   {
     id: 7,
-    name: 'Chicken Breast',
+    name: 'Chicken-Breast',
     category: 'Meat',
     price: 7.99,
     quantity: 10,
@@ -69,7 +69,7 @@ export const items = [
   },
   {
     id: 8,
-    name: 'Basmati Rice',
+    name: 'Basmati-Rice',
     category: 'Grains',
     price: 5.49,
     quantity: 25,
@@ -78,7 +78,7 @@ export const items = [
   },
   {
     id: 9,
-    name: 'Peanut Butter',
+    name: 'Peanut-Butter',
     category: 'Spreads',
     price: 6.49,
     quantity: 18,
@@ -87,7 +87,7 @@ export const items = [
   },
   {
     id: 10,
-    name: 'Dark Chocolate',
+    name: 'Dark-Chocolate',
     category: 'Snacks',
     price: 3.99,
     quantity: 22,
@@ -96,7 +96,7 @@ export const items = [
   },
   {
     id: 11,
-    name: 'Olive Oil',
+    name: 'Olive-Oil',
     category: 'Cooking',
     price: 8.99,
     quantity: 14,
@@ -105,7 +105,7 @@ export const items = [
   },
   {
     id: 12,
-    name: 'Frozen Peas',
+    name: 'Frozen-Peas',
     category: 'Frozen',
     price: 2.99,
     quantity: 35,
