@@ -1,11 +1,13 @@
 import React from 'react';
 import ProductCarousel from '@/components/products/ProductCrousel';
+import QuantitySlector from '@/components/products/QuantitySlector';
+import AddToCart from '@/components/cart/AddToCart';
 
 const mockDetails = {
   id: 2,
   name: 'Organic-Bananas',
   category: 'Fruits',
-  description: 'Organic banana from nepal,',
+  description: 'EverLocal Nepali white seasme seeds (500gm) ',
   price: 1.49,
   quantity: 15,
   imageUrl:
@@ -27,11 +29,16 @@ const Productpage = async ({ params }: Params) => {
       <div className=" w-1/2 flex justify-center ">
         <ProductCarousel />
       </div>
-      <div className=" w-1/2 flex flex-col shadow-sm">
+      <div className=" w-1/2 flex flex-col gap-4">
         <h1 className="text-3xl font-bold text-gray-700">{name}</h1>
-        <p>{category}</p>
-        <p>{mockDetails.description}</p>
-        <p className="font-bold text-2xl">NPR {mockDetails.price}</p>
+        <p className="text-2xl text-gray-900">{mockDetails.description}</p>
+        <p className="font-bold text-3xl text-gray-700">
+          NPR {mockDetails.price}
+        </p>
+        <div className="flex items-center gap-10">
+          <QuantitySlector />
+          <AddToCart />
+        </div>
       </div>
     </div>
   );

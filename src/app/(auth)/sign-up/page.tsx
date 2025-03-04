@@ -1,7 +1,12 @@
+import AuthForm from '@/components/form/AuthForm';
 import React from 'react';
 
-const page = () => {
-  return <div>page</div>;
+const SignUp = async () => {
+  return (
+    <section className="flex justify-center items-center w-full h-full ">
+      <AuthForm type="sign-up" />
+    </section>
+  );
 };
 
-export default page;
+export default SignUp;

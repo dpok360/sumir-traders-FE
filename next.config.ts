@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   devIndicators: false,
   images: {
     domains: [
+      'www.merokirana.com',
       'plus.unsplash.com',
       'images.unsplash.com',
       'upload.wikimedia.org',

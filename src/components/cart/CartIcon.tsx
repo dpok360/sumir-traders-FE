@@ -7,13 +7,13 @@ const itemCount = 1;
 
 const CartIcon = () => {
   return (
-    <div className="relative cursor-pointer !mt-6">
+    <div className="relative cursor-pointer flex justify-center items-center h-12 top-1">
       <Image
         src="/cart.svg"
         alt="Cart"
-        width={32}
-        height={32}
-        className="w-10 h-10"
+        width={30}
+        height={30}
+        className="w-8 h-8"
       />
 
       {itemCount > 0 && (

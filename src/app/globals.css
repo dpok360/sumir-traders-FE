@@ -45,6 +45,17 @@ Safari and Opera .no-scrollbar::-webkit-scrollbar {
   background: #7878a3;
 }
 
+/* In your global CSS file */
+[data-radix-dropdown-menu-trigger]:focus-visible {
+  outline: none !important;
+}
+
+.dropdown-menu-trigger-button:focus,
+.dropdown-menu-trigger-button:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);

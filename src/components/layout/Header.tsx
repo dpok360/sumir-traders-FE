@@ -1,16 +1,21 @@
+'use client';
 import React from 'react';
 import Search from '../search/SearchInput';
-import Logo from '../logo/Logo';
+import Logo from '../Icons/Logo';
 
-import UserDropdownMenu from '../account/UserDropdownMenu';
+import UserNav from '../user/UserNav';
 import Cart from '../cart/Cart';
 const Header = () => {
   return (
-    <div className="flex justify-between items-center border  bg-gray-100 shadow-xl fixed top-0 left-0 w-full z-10">
-      <Logo />
-      <Search />
-      <Cart />
-      <UserDropdownMenu />
+    <div className="flex justify-center items-center gap-30 shadow-sm  bg-white border fixed top-0 left-0 w-full z-10">
+      <div className="flex items-center gap-14">
+        <Logo />
+        <Search />
+      </div>
+      <div className="flex gap-4">
+        <Cart />
+        <UserNav />
+      </div>
     </div>
   );
 };
