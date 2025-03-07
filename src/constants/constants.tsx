@@ -113,3 +113,24 @@ export const items = [
       'https://images.unsplash.com/photo-1642864106922-f79b4aea18b4?q=80&w=3435&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
 ];
+export const itemsInCart = [
+  {
+    id: 1,
+    name: 'White-Seasme-500gm',
+    category: 'Seeds-Nuts',
+    price: 2.99,
+    quantity: 10,
+    imageUrl:
+      'https://www.merokirana.com/archive/KiranaProduct/14364249eab64a75b2d9f260a0fb6aba.jpg',
+  },
+  {
+    id: 2,
+    name: 'Organic-Bananas-12pcs',
+    category: 'Fruits',
+    price: 1.49,
+    quantity: 15,
+    imageUrl:
+      'https://plus.unsplash.com/premium_photo-1664527307725-362b589c406d?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+];
+export const paymentMethods = ['Cash', 'IME Pay', 'FonePay', 'Nepal Pay'];

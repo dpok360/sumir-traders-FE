@@ -77,7 +77,6 @@ const AuthForm = ({ type }: { type: string }) => {
       setIsLoading(false);
     }
   };
-  console.log(type);
 
   return (
     <section className="auth-form !pt-26  flex flex-col   items-center ">

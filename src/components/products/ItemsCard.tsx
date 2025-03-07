@@ -2,7 +2,7 @@ import { items } from '@/constants/constants';
 import Image from 'next/image';
 import React from 'react';
 import { Button } from '../ui/button';
-import { ShoppingBag } from 'lucide-react';
+//import { ShoppingBag } from 'lucide-react';
 import Link from 'next/link';
 
 //TODO --> make cards links
