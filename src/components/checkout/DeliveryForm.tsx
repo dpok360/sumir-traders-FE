@@ -24,7 +24,7 @@ const DeliveryForm = ({ type }) => {
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="space-y-8 w-full !p-8 flex flex-col gap-4  "
+          className="space-y-8 w-full !p-6 flex flex-col gap-2  "
         >
           <p className=" text-xl !mb-2  text-gray-600 font-extrabold uppercase">
             DELIVERY

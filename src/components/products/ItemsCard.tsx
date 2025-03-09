@@ -12,7 +12,7 @@ import Link from 'next/link';
 
 const ItemsCard = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 bg-gray-50  ">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2   ">
       {items.map((item) => (
         <Link key={item.id} href={`/${item.category}/${item.name}/${item.id}`}>
           <div
@@ -35,7 +35,6 @@ const ItemsCard = () => {
             </p>
             <p className="text-sm text-gray-700">Available: {item.quantity}</p>
             <div className="flex justify-center items-center relative  ">
-              {/* <ShoppingBag className="absolute left-6  z-10 h-5 w-5 top-1/2 transform -translate-y-1/2    text-gray-100 transition-colors" /> */}
               <Button
                 variant="outline"
                 size="lg"

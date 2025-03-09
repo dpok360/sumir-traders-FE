@@ -6,7 +6,7 @@ import PaymentSelection from '../payment/PaymentSelection';
 
 const Checkout = () => {
   return (
-    <div className=" !my-10 !ml-40 ">
+    <div className=" !my-6 !ml-40">
       <PaymentSelection />
       <DeliveryForm type="" />
     </div>
