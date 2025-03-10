@@ -2,6 +2,9 @@ import React from 'react';
 import { Input } from '@/components/ui/input';
 //import { Button } from '@/components/ui/button';
 import { Search } from 'lucide-react';
+//import CircularArrowLoader from '../loader/CircularArrowLoader';
+
+//TODO: make loader render when fetching /seraching in db
 
 const SearchInput = () => {
   {
@@ -14,6 +17,7 @@ const SearchInput = () => {
             placeholder="SEARCH..."
             className=" border-black text-black rounded-none w-2xl h-12 !p-4 !m-4"
           />
+          {/* <CircularArrowLoader /> */}
         </div>
 
         {/* <Button
